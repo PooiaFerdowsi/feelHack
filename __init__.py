@@ -2,7 +2,7 @@ import os;
 
 while True:
   text = input("statement");
-  if text = 'init':
+  if text == 'init':
     print('Virus files has make');
     # make virus codes
     path = input('virus path');
@@ -17,7 +17,7 @@ while True:
     if os.name == "posix":
       lang = "bash";
      #
-    if lang = "bat":
+    if lang == "bat":
       file = open("main/bat","w+");
       file.write("""
          @echo off
